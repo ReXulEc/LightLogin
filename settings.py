@@ -1,22 +1,22 @@
 #------ Customizable ------   --------------------- Info ---------------------
 database = 'db.json'         #Database'in Dosya Konumu // The Location Of Database
-mainbaslik = 'Giris Paneli'   #Ana Pencerenin Başlığı // Main App's Title
+mainbaslik = 'Login Panel'   #Ana Pencerenin Başlığı // Main App's Title
 
-mainisim = 'İsim'
-mainsifre = 'Şifre'
-isimplaceholder = 'Lütfen İsmi Giriniz..'
-sifreplaceholder = 'Lütfen Şifreyi Giriniz..'
+mainisim = 'Name'
+mainsifre = 'Password'
+isimplaceholder = 'Please Enter a Name..'
+sifreplaceholder = 'Please Enter a Password..'
 
-basariliB = 'Basarili Giris!' #Başarılı Giriş Başlığı // Successful Login Title
-basariliNormal = 'Bilgiler Doğru!' #Succesful Text
-basariliIsim = 'İsim : ' #Showing Name
-basariliSifre = 'Şifre : ' #Showing Password
+basariliB = 'Successful Login!' #Başarılı Giriş Başlığı // Successful Login Title
+basariliNormal = 'Successful Login!' #Succesful Text
+basariliIsim = 'Name : ' #İsimi Gösterir // Showing Name
+basariliSifre = 'Password : ' #Şifreyi Gösterir // Showing Password
 
-hataliB = 'Hatali Giris!' #Hatalı Şifre Başlık // Wrong Password Title
-hataliNormal = '                    Bilgiler Yanlış!' #En Üstteki Hata Mesajı // Top Error Message
-hataliErrorMsg = '\n  Bilgileri Değistirerek Yazmayı Dene\n      Eğer Bir Hata Var İse Database\nDosyasını[json] Kontrol Etmeyi Unutma!' #Uzun Hata Mesajı // Long Error Message
+hataliB = 'Wrong Information' #Hatalı Şifre Başlık // Wrong Info Title
+hataliNormal = 'Wrong Information' #En Üstteki Hata Mesajı // Top Error Message
+hataliErrorMsg = '\nTry to change informations\nIf something is clearly wrong..\nCheck The Database[json] File' #Uzun Hata Mesajı // Long Error Message
 
-girisButon = 'Giris' #Giriş Butonu'nun Yazısı // Login Putton's Text
+girisButon = 'Login' #Giriş Butonu'nun Yazısı // Login Putton's Text
 
 # print('Hello World!')
 # print('by rexulec with py and <3')
