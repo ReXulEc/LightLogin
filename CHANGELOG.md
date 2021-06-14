@@ -2,7 +2,7 @@
 
 This changelog starts with the restructured 1.0.3 release that happened after context isolation changes.
 
-##1.0.6
+## 1.0.6
 
 ### Changed
 - The Language Of App (Ui / settings.py)
