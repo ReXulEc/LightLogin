@@ -1,2 +1,2 @@
-# LightLogin (Customizable Login Form)
-🔑 Customizable Basic Login Form For Libraries, Bussiness... With 💖 and PyQt5
+## LightLogin (Customizable Login Form)
+🔑 Customizable Basic Login Form For Libraries, Business... With 💖 and PyQt5
