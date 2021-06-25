@@ -1,5 +1,6 @@
 #------ Customizable ------   --------------------- Info ---------------------
 database = 'db.json'         #Database'in Dosya Konumu // The Location Of Database
+blacklst = 'blacklist.json'         #Database'in Dosya Konumu // The Location Of Database
 mainbaslik = 'Login Panel'   #Ana Pencerenin Başlığı // Main App's Title
 
 mainisim = 'Name'
@@ -15,6 +16,10 @@ basariliSifre = 'Password : ' #Şifreyi Gösterir // Showing Password
 hataliB = 'Wrong Information' #Hatalı Şifre Başlık // Wrong Info Title
 hataliNormal = 'Wrong Information' #En Üstteki Hata Mesajı // Top Error Message
 hataliErrorMsg = '\nTry to change informations\nIf something is clearly wrong..\nCheck The Database[json] File' #Uzun Hata Mesajı // Long Error Message
+
+blacklistB = 'Warning'
+blacklistNormal = 'Blacklisted User!'
+blacklistReason = 'Reason: '
 
 girisButon = 'Login' #Giriş Butonu'nun Yazısı // Login Putton's Text
 
