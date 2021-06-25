@@ -2,6 +2,16 @@
 
 This changelog starts with the restructured 1.0.3 release that happened after context isolation changes.
 
+## 1.0.9
+###### [ Stable Version ]
+
+### Added
+- Added `blacklist.json` file
+- Some line (`settings.py`) 
+
+### Changed
+- The main functionality of `main.py` has changed
+
 ## 1.0.6
 
 ### Changed
