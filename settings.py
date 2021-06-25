@@ -17,7 +17,7 @@ hataliB = 'Wrong Information' #Hatalı Şifre Başlık // Wrong Info Title
 hataliNormal = 'Wrong Information' #En Üstteki Hata Mesajı // Top Error Message
 hataliErrorMsg = '\nTry to change informations\nIf something is clearly wrong..\nCheck The Database[json] File' #Uzun Hata Mesajı // Long Error Message
 
-blacklistB = 'Warning'
+blacklistB = 'Warning - Blacklist'
 blacklistNormal = 'Blacklisted User!'
 blacklistReason = 'Reason: '
 
