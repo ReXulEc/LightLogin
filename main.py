@@ -9,6 +9,9 @@ from PyQt5 import QtGui
 f = open(database, )
 data = json.load(f)
 
+f = open(blacklst, )
+blacklist = json.load(f)
+
 
 class LoginWindow(QWidget):
 	def __init__(panel):
@@ -42,14 +45,19 @@ class LoginWindow(QWidget):
 	def check_password(panel):
 		msg = QMessageBox()
 
-		if panel.lineEdit_username.text() in data and panel.lineEdit_password.text() == data[panel.lineEdit_username.text()]:
-			msg.setWindowTitle(basariliB)
-			msg.setText(basariliNormal + '\n' + basariliIsim + panel.lineEdit_username.text() + '\n' + basariliSifre + panel.lineEdit_password.text())
+		if panel.lineEdit_username.text() in blacklist:
+			msg.setWindowTitle(blacklistB)
+			msg.setText(blacklistNormal + '\n' + blacklistReason + blacklist[panel.lineEdit_username.text()])
 			msg.exec_()
 		else:
-			msg.setWindowTitle(hataliB)
-			msg.setText(hataliNormal + hataliErrorMsg)
-			msg.exec_()
+			if panel.lineEdit_username.text() in data and panel.lineEdit_password.text() == data[panel.lineEdit_username.text()]:
+				msg.setWindowTitle(basariliB)
+				msg.setText(basariliNormal + '\n' + basariliIsim + panel.lineEdit_username.text() + '\n' + basariliSifre + panel.lineEdit_password.text())
+				msg.exec_()
+			else:
+				msg.setWindowTitle(hataliB)
+				msg.setText(hataliNormal + hataliErrorMsg)
+				msg.exec_()
 
 if __name__ == '__main__':
 	uyglm = QApplication(sys.argv)
